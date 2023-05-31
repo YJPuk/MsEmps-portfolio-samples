@@ -1,6 +1,24 @@
 # 02 Advanced CSS: Portfolio
 
-Deployed link: 
+# Deployed link: 
+
+Screenshot of page: 
+
+<hr>
+
+Description
+
+I made a portfolio page that I may potentially use as base in the future for myself. For the purposes of this challenge I have done it for a "Employee" as an example. Hopefully this page can show their potential employers what they can do and helps them land the job.
+
+Employee's page includes
+<h3>&#x2022; Name at the top</h3>
+<h3>&#x2022; Navigation bar leading to different parts of the page when you click on it including about me, works, contact me and resume</h3>
+<h3>&#x2022; Page that adapts to viewport size with person's photo from thispersondoesnotexist.com</h3>
+<h3>&#x2022; Multiple pictures, different sized image placeholders to click on with hover effect, one image is significantly larger than the rest</h3>
+<h3>&#x2022; Contact me at the footer with placeholder nav containing Phone number, email, github, linkedin</h3>
+<h3>&#x2022; Media queries, flexbox and CSS variables</h3>
+
+This was built using HTML, CSS and love.
 
 <hr>
 
