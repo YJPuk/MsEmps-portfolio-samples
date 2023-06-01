@@ -66,7 +66,10 @@ ul li a {
     align-content: normal;
     padding: 10px;
 }
-  
+.about-me-row img {
+    border-radius: 8px
+}
+
 .about-me-column:nth-child(1) {
     display: block;  
     width: 300px;
@@ -76,6 +79,7 @@ ul li a {
     font-size: 40px;
     border-right: 5px solid var(--violet)
 }
+ 
 
 .about-me-column:nth-child(2) {
     display: block;  
@@ -86,3 +90,91 @@ ul li a {
     font-size: 20px;
 }
 
+.works-row {
+    display: flex;
+    flex-direction: grid;
+    flex-wrap: wrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    padding: 10px;
+}
+
+.works-column:nth-child(1) {
+    display: block;  
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Gill Sans','Trebuchet MS', sans-serif;
+    font-size: 40px;
+    border-right: 5px solid var(--violet)
+}
+
+.works-column:nth-child(2) {
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.works-item-row {
+    display: flex;
+    justify-content: center;
+}
+
+.works-item-row img {
+   max-width: 25%;
+   padding: 10px;
+   margin: 10px
+}
+
+.works-item-highlighted-row img {
+    max-width: 80%;
+}
+
+.works-item-highlighted-row {
+position: relative;
+text-align: center;
+color: white; 
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    color: #ffffff;
+    border: 10px solid var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.works-column img {
+    box-shadow: 0px 0px 5px var(--white);
+    border: 10px solid var(--violet);
+}
+
+.works-column img:hover {
+    opacity: 0.5
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background-color: var(--violet);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+footer nav {
+    text-align: center;
+}
+
+footer nav ul li {
+    display: inline-block; 
+}
+
+
+@media screen and (max-width: 992px) {
+    .about-me-column:nth-child(1), .about-me-column:nth-child(2), .works-item-row .works-item-highlighted-row, .works-item-row {
+     width: 100%;
+    }
+}
