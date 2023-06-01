@@ -1,6 +1,6 @@
 # 02 Advanced CSS: Portfolio
 
-# Deployed link: 
+# Deployed link: https://github.com/YJPuk/MsEmps-portfolio-samples/blob/main/Main/index.html
 
 Screenshot of page: 
 
