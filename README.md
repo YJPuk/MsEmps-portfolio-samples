@@ -3,7 +3,10 @@
 # Deployed link: https://github.com/YJPuk/MsEmps-portfolio-samples/blob/main/Main/index.html
 
 Screenshot of page: 
-
+https://github.com/YJPuk/MsEmps-portfolio-samples/blob/main/Screenshots/Screenshot%201.png
+https://github.com/YJPuk/MsEmps-portfolio-samples/blob/main/Screenshots/Screenshot%202.png
+https://github.com/YJPuk/MsEmps-portfolio-samples/blob/main/Screenshots/Screenshot%203.png
+https://github.com/YJPuk/MsEmps-portfolio-samples/blob/main/Screenshots/Screenshot%204.png
 <hr>
 
 Description
